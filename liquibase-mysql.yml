@@ -4,7 +4,7 @@ kind: Deployment
 metadata:
   name: liquibase-mysql
   annotations:
-    redeploy-timestamp: "initial"
+redeploy-timestamp: "2025-12-02T12:12:10Z"
 spec:
   template:
     spec:
