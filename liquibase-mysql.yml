@@ -1,0 +1,14 @@
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: liquibase-mysql
+  annotations:
+    redeploy-timestamp: "initial"
+spec:
+  template:
+    spec:
+      containers:
+        - name: liquibase-mysql
+          image: testacrcacheone.azurecr.io/liquibase-mysql:1.0
+
